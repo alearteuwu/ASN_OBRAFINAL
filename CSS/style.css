@@ -625,6 +625,25 @@ section .MEDIACARDS {
         left: 300px;
         width: 900px;
         scale: 250%;
+
+        animation-name: Logo;
+        animation-delay: 26s;
+        animation-duration: 27s;
+    }
+
+    @keyframes Logo {
+        0% {
+            transform: scale(100%);
+            opacity: 100%;
+        }
+        10% {
+            transform: scale(0%);
+            opacity: 0%;
+        }
+        100% {
+            transform: scale(0%);
+            opacity: 0%;
+        }
     }
 
     #INICIO h2 {
@@ -634,6 +653,25 @@ section .MEDIACARDS {
         left: 0;
         font-size: 2rem;
         width: 100%;
+
+        animation-name: Lema;
+        animation-delay: 26s;
+        animation-duration: 27s;
+    }
+
+    @keyframes Lema {
+        0% {
+            transform: scale(100%);
+            opacity: 100%;
+        }
+        10% {
+            transform: scale(0%);
+            opacity: 0%;
+        }
+        100% {
+            transform: scale(0%);
+            opacity: 0%;
+        }
     }
 
     #INICIO h3 {
