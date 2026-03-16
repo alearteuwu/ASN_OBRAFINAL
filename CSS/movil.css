@@ -148,7 +148,7 @@ nav p {
 #INICIO picture {
     width: 100%;
     position: absolute;
-    top: 50px;
+    top: 100px;
     
     animation-name: Logo;
         animation-delay: 26s;
@@ -160,15 +160,17 @@ nav p {
 }
 
 #INICIO h2 {
-    width: 70%;
+    width: 90%;
     text-align: center;
 
     font-family: SPACEGROTESK;
     font-weight: 400;
     color: #DDFFD9;
+
     position: absolute;
-    left: 70px;
-    top: 450px;
+    left: 50%;
+    top: 500px;
+    transform: translateX(-50%);
 
     animation-name: Lema;
         animation-delay: 26s;
@@ -176,26 +178,29 @@ nav p {
 }
 
 #INICIO h3 {
-    width: 35%;
+    width: 30%;
     font-family: SPACEGROTESK;
     font-weight: 400;
     color: #DDFFD9;
-    text-align: center;
+    text-align: left;
 
     position: absolute;
+    left: 19%;
     top: 600px;
+    transform: translateX(-50%);
+
 }
 
 #INICIO .Boton1 {
     position: absolute;
     top: 660px;
-    right: 320px;
+    left: 0%;
 }
 
 #INICIO .Boton2 {
     position: absolute;
     top: 660px;
-    right: 20px;
+    left: 65%;
 }
 
 #INFO {
@@ -263,15 +268,18 @@ section .MEDIACARDS {
 #FAQ .PICAS img {
     position: relative;
     top: 150px;
-    left: 125px;
+    left: 70%;
+    transform: translateX(-50%);
     scale: 150%;
     opacity: 50%;
 }
 
 #FAQ h2 {
-    position: relative;
+    position: absolute;
     top: 250px;
-    right: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
     font-size: 1.8rem;
     margin-bottom: 20px;
     text-align: center;
@@ -286,7 +294,8 @@ section .MEDIACARDS {
     margin: 0 auto;
     position: absolute;
     top: 370px;
-    right: 170px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #FAQ .Boton2 a {
@@ -310,7 +319,7 @@ section .MEDIACARDS {
 }
 
 #NEWSLETTER h4 {
-    width: 80%;
+    width: 90%;
     font-family: SPACEGROTESK;
     font-weight: 400;
     font-size: 2rem;
@@ -320,13 +329,15 @@ section .MEDIACARDS {
 
     position: absolute;
     top: 100px;
-    left:45px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #NEWSLETTER .Boton2 {
     position: absolute;
     top: 300px;
-    left: 165px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #NEWSLETTER .Boton2 a{
@@ -361,7 +372,8 @@ section .MEDIACARDS {
 
 #FOOTER .flecha img{
     position: absolute;
-    left: 360px;
+    right: -5px;
+    left: auto;
     top: 60px;
 }
 
@@ -374,9 +386,10 @@ section .MEDIACARDS {
 
 #FOOTERTEXT {
     position: absolute;
-    left: 100px;
-    top: 70px;
-    width: 55%;
+    left: 50%;
+    top: 65px;
+    transform: translateX(-50%);
+    width: 60%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
