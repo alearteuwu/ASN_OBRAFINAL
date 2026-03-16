@@ -161,7 +161,7 @@ nav p {
 #INICIO picture {
     width: 100%;
     position: absolute;
-    top: 100px;
+    top: 70px;
     left: -5px;    
     animation-name: Logo;
         animation-delay: 26s;
@@ -183,7 +183,7 @@ nav p {
 
     position: absolute;
     left: 5%;
-    top: 500px;
+    top: 465px;
 
     animation-name: Lema;
         animation-delay: 26s;
@@ -199,7 +199,7 @@ nav p {
 
     position: absolute;
     left: 19%;
-    top: 600px;
+    top: 580px;
     transform: translateX(-50%);
 
 }
@@ -241,7 +241,7 @@ nav p {
 
 #INFO .Boton1 {
     position: absolute;
-    top: 290px;
+    top: 300px;
     height: 2.5vh;
 }
 
@@ -354,8 +354,8 @@ section .MEDIACARDS {
 
 #NEWSLETTER .Boton2 {
     position: absolute;
-    top: 500px;
-    left: 45%;
+    top: 540px;
+    left: 43%;
     transform: translateX(-50%);
 }
 
