@@ -1,0 +1,14 @@
+@font-face {
+    font-family: ETHNOCENTRIC;
+    src: url(../FNT/Ethnocentric\ Rg.otf);
+}
+
+@font-face {
+    font-family: SPACEGROTESK;
+    src: url(../FNT/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: ROBOTO;
+    src: url(../FNT/Roboto-VariableFont_wdth\,wght.ttf);
+}

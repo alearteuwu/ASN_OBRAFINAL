@@ -1,0 +1,201 @@
+/* BOTONES */
+
+.Boton1 {
+    background: transparent;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    margin: 20px;
+
+    font-family: SPACEGROTESK;
+    font-weight: 500;
+    color: #DDFFD9;
+
+    width: 25%;
+    height: 2%;
+    border: 2px solid #77CBB9;
+    text-align: center;
+
+}
+
+.Boton1 a {
+    margin-top: 1px;
+}
+
+.Boton1 img {
+    max-width: 100px;
+    position: relative;
+    top: -8px;
+}
+
+.Boton1:hover {
+    color: #DDFFD9;
+    border-color: #DDFFD9;
+    box-shadow: 0px 0px 6px 2px #DDFFD9,
+        inset 0px 0px 6px 2px #DDFFD9;
+    text-shadow:
+        0 0 5px #DDFFD9,
+        0 0 10px #DDFFD9,
+        0 0 20px #DDFFD9;
+
+    transform: scale(1.1);
+}
+
+
+.Boton2 {
+    font-size: 1.2rem;
+    font-family: SPACEGROTESK;
+    font-weight: 500;
+    color: #DDFFD9;
+    background-color: #d10000;
+    transition: all 0.3s ease;
+    margin: 20px;
+
+    width: 20%;
+    height: 2%;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Boton2 a {
+    margin-top: 1px;
+}
+
+.Boton2:hover {
+    text-decoration: underline;
+    text-decoration-color: #77CBB9;
+    background-color: #FF1C1C;
+    box-shadow: 0px 0px 6px 2px #FF1C1C;
+    text-shadow:
+    0 0 5px #DDFFD9;
+    transform: scale(1.1);
+}
+
+
+/* CARDS */
+
+.CARD1 {
+    width: 70vw;
+    background-color: #520010;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #77CBB9;
+
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 50px;
+}
+.CARD1 h4, p {
+    font-family: SPACEGROTESK;
+     margin-left: 20px;
+
+}
+.CARD1 h4 {
+    color: #DDFFD9;
+    font-weight: bolder;
+}
+
+.CARD1 p {
+    color: #DDFFD9;
+    letter-spacing: 2%;
+    width: 80%;
+    text-transform: uppercase;
+}
+
+.CARD1:hover {
+    background-color: #d10000;
+    border: 1px solid #DDFFD9;
+     box-shadow: 0px 0px 6px 2px #DDFFD9,
+        inset 0px 0px 6px 2px #DDFFD9;
+
+    text-shadow:
+    0 0 2.5px #DDFFD9;
+    color: #DDFFD9;
+    transform: scale(1.02);
+}
+
+
+.CARD2 {
+    background-color: #060c0e;
+    width: 70vw;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #77CBB9;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.CARD2 h4{
+    font-family: SPACEGROTESK;
+    margin-left: 20px;
+    color: #DDFFD9;
+    font-weight: bolder;
+}
+
+.CARD2 img{
+    width: 100%;
+    height: 150%;
+}
+
+.CARD2:hover {
+     border: 1px solid #DDFFD9;
+     box-shadow: 0px 0px 6px 2px #DDFFD9,
+        inset 0px 0px 6px 2px #DDFFD9;
+
+    text-shadow:
+    0 0 2.5px #DDFFD9;
+    color: #DDFFD9;
+    transform: scale(1.02);
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1024px) {
+
+    .Boton1 {
+    width: 10%;
+    height: 2%;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    }
+
+    .Boton2 {
+    width: 10%;
+    height: 2.5%;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .CARD1 {
+    width: 750px;
+    padding: 40px;
+    font-size: 1.5rem;
+    border: 2px solid #77CBB9;
+    top: 150px;
+    left: 50px;
+    }
+
+    .CARD2 {
+        width: 40%;
+        max-width: 850px;
+        background-color: #060c0e;
+        border: 2px solid #77CBB9;
+        padding: 20px;
+    }
+}
