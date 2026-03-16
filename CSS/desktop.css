@@ -1,0 +1,286 @@
+/* TAMAÑO DESKTOP */
+
+@media screen and (min-width: 1024px) {
+    main {
+        height: auto;
+        overflow: visible;
+        grid-template-columns: 1fr;
+    }
+
+    body {
+        background-image: url(../IMG/fondo_desktop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+
+    #INICIO, #INFO, #MEDIA, #NEWSLETTER {
+        min-height: 100vh;
+        width: 100vw;
+        position: relative;
+        top: 0;
+    }
+
+    #INICIO {
+        align-items: center;
+        text-align: center;
+        position: relative;
+    }
+
+    #INICIO video {
+        width: 100%;
+        height: 45%;
+        scale: 250%;
+        top: 165px;
+        right: 1px;
+    }
+
+    #INICIO picture {
+        position: absolute;
+        top: 300px;
+        left: 300px;
+        width: 900px;
+        scale: 250%;
+
+        animation-name: Logo;
+        animation-delay: 26s;
+        animation-duration: 27s;
+    }
+
+    #INICIO h2 {
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        font-size: 2rem;
+        width: 100%;
+
+        animation-name: Lema;
+        animation-delay: 26s;
+        animation-duration: 27s;
+    }
+
+    #INICIO h3 {
+        position: absolute;
+        top: 550px;
+        left: 75px;
+        font-size: 1.1rem;
+        width: auto;
+    }
+
+    #INICIO .Boton1 {
+        position: absolute;
+        top: 600px; 
+        left: 50px;
+        
+        width: 300px;
+        height: 60px; 
+        
+        margin: 0;
+        z-index: 1;
+        border: 2px solid #77CBB9;
+        border-radius: 8px;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #INICIO .Boton2 {
+        position: absolute;
+        top: 600px; 
+        right: 50px;
+        
+        width: 250px;
+        height: 60px;
+        z-index: 1;
+    }
+
+    #INICIO .Boton1 img {
+        max-width: 200px;
+        position: relative;
+        top: 0;
+    }
+
+    #INICIO .Boton1:hover {
+        border-color: #DDFFD9;
+    }
+
+    #INFO{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    }
+
+    #INFO h2 {
+    font-size: 3.5rem;
+    position: absolute;
+    top:-30px;
+    left: 50px;
+    }
+
+    #INFO .Boton1 {
+    position: absolute;
+    top: 525px;
+    left: 50px;
+    }
+
+    #MEDIA {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    padding: 50px;
+    }
+
+    #MEDIA h2 {
+    font-size: 3.5rem;
+    position: absolute;
+    top:-30px;
+    left: 50px;
+    }
+
+    .MEDIACARDS {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    bottom: 150px;
+    left: 13%;
+    }
+
+    #MEDIA .Boton2 {
+        top: 350px;
+        right: 765px;
+        z-index: 2;
+    }
+
+    #MEDIA .Boton1 {
+        position: relative;
+        top: 310px;
+        right: 285px;
+        width: 250px;
+        height: 20px;
+        margin: 0 auto;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #FAQ {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    padding: 50px;
+    }
+
+    #FAQ .PICAS img {
+    position: relative;
+    top: -80px;
+    left: -30px;
+    scale: 300%;
+    }
+
+    #FAQ h2 {
+    position: absolute;
+    top: 225px;
+    right:575px;
+    font-size: 3.5rem;
+    }
+
+    #FAQ .Boton2 {
+     position: absolute;
+    top: 450px;
+    right:710px;
+    width: 250px;
+    height: 20px;
+    margin: 0 auto;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    #NEWSLETTER {
+    position: relative;
+    top: -180px;
+    }
+
+    #NEWSLETTER h2 {
+    font-size: 3.5rem;
+    position: absolute;
+    top:-30px;
+    left: 50px;
+    }
+
+    #NEWSLETTER h4 {
+    font-size: 3.5rem;
+    width: 90%;
+    position: absolute;
+    top: 150px;
+    }
+
+    #NEWSLETTER .Boton2 {
+    position: absolute;
+    top: 400px;
+    left: 625px;
+    width: 250px;
+    height: 20px;
+    margin: 0 auto;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    #FOOTER {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    }
+
+    #FOOTERTEXT {
+    position: absolute;
+    top: 90px;
+    left: 350px;
+    }
+
+    #FOOTER .icon {
+    position: absolute;
+    bottom: 125px;
+    left: 150px;
+    }
+
+    #FOOTER .flecha {
+    position: absolute;
+    bottom: 120px;
+    left: 850px;
+    }
+
+    #bgmenu {
+    position: absolute;
+    left: 910px;
+    width: 250px;
+    }
+
+    .IDIOMA {
+    position: absolute;
+    right: 10px;
+    }
+
+    #flecha {
+    width: 150px;
+    margin-left: 50px;
+
+}
+}
