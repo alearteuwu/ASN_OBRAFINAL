@@ -146,16 +146,16 @@ nav p {
     width: 110vw;
     height: 100vh;
     right: -13px;
-    scale: 245%;
+    scale: 250%;
 }
 
 #BLUR {
     position: absolute;
     bottom: 0px;
-    width: 100vw;
-    height: 7.5vh;
-    background: linear-gradient(#060c0e00, #060c0e);
-    z-index: 1;
+    width: 100%;
+    height: 10vh;
+    background: linear-gradient(#05090b00, #05090B);
+    z-index: 2;
 }
 
 #INICIO picture {
@@ -183,7 +183,7 @@ nav p {
 
     position: absolute;
     left: 5%;
-    top: 465px;
+    top: 445px;
 
     animation-name: Lema;
         animation-delay: 26s;
@@ -191,14 +191,14 @@ nav p {
 }
 
 #INICIO h3 {
-    width: 30%;
+    width: 35%;
     font-family: SPACEGROTESK;
     font-weight: 400;
     color: #DDFFD9;
     text-align: left;
 
     position: absolute;
-    left: 19%;
+    left: 22%;
     top: 580px;
     transform: translateX(-50%);
 
@@ -218,6 +218,7 @@ nav p {
 }
 
 #INICIO .Boton2 {
+    width: 25%;
     position: absolute;
     top: 660px;
     left: 65%;
@@ -353,9 +354,10 @@ section .MEDIACARDS {
 }
 
 #NEWSLETTER .Boton2 {
+    width: 25%;
     position: absolute;
     top: 540px;
-    left: 43%;
+    left: 48%;
     transform: translateX(-50%);
 }
 

@@ -182,6 +182,16 @@
     align-items: center;
     }
 
+    .Boton2:hover {
+    text-decoration: underline;
+    text-decoration-color: #77CBB9;
+    background-color: #FF1C1C;
+    box-shadow: 0px 0px 6px 2px #FF1C1C;
+    text-shadow:
+    0 0 5px #DDFFD9;
+    transform: scale(1.1);
+}
+
     .CARD1 {
     width: 750px;
     padding: 40px;
