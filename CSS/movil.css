@@ -73,6 +73,7 @@ nav section {
 }
 
 #bgmenu {
+    width: 100%;
     font-family: ETHNOCENTRIC;
     display: none;
     margin-top: 190px;
