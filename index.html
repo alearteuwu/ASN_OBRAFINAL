@@ -22,8 +22,9 @@
                 <p>/</p>
                 <span id="ENG">ENG</span>
                 <picture id="flecha">
-                <source srcset="IMG/BP_FLECHA_DESKTOP.png" media="(min-width: 1024px)">
-                    <img src="IMG/BP_FLECHA.png" alt="BetPunk Menu Icon"></picture>
+                    <source srcset="IMG/BP_FLECHA_DESKTOP.png" media="(min-width: 1024px)">
+                    <img src="IMG/BP_FLECHA.png" alt="BetPunk Menu Icon">
+                </picture>
             </section>
 
             <ul id="bgmenu">
@@ -39,7 +40,12 @@
     <main>
         <section id="INICIO">
             <div id="BLUR"></div>
-            <video src="VID/FINAL_ELEVATOR.mp4" autoplay muted loop></video>
+            <video autoplay muted loop playsinline>
+                <source src="VID/FINAL_ELEVATOR.mp4" type="video/mp4" media="(min-width:1024px)">
+                </source>
+                <source src="VID/Elevator_Movil.mp4" type="video/mp4" media="(max-width: 1023px)">
+                </source>
+            </video>
             <section class="contenido-inicio">
                 <picture>
                     <source srcset="IMG/BP_LOGODESKTOP.png" media="(min-width: 1024px)">
