@@ -71,11 +71,11 @@ nav section {
 }
 
 #bgmenu {
-    width: 100%;
+    width: 1000px;
     font-family: ETHNOCENTRIC;
     display: none;
     margin-top: 190px;
-    margin-left: 300px;
+    margin-left: 250px;
     position: absolute;
     background-color: #060c0e95;
     padding: 20px;
