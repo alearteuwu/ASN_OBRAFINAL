@@ -1,0 +1,203 @@
+/* INFO */
+
+@media screen and (min-width: 1024px) {
+    
+   main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    body {
+        background-image: url(../IMG/fondo_desktop_info.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+
+    #SOBRE, #NIVELES, #HOMBRE{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #SOBRE {
+        width: 100vw;
+        height: 120vh;
+        position: relative;
+    }
+
+    #SOBRE h2 {
+        margin-left: 60px;
+        font-size: 3.5rem;
+        color: #DDFFD9;
+        font-family: SPACEGROTESK;
+        position: absolute;
+        top: 50px;
+    }
+
+    #SOBRE .CARD1 p {
+        text-transform: none;
+    }
+
+    #SOBRE .CARD1 {
+        margin-top: 50px;
+        width: 1025px;
+    }
+
+    #NIVELES {
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #NIVELES h2 {
+        font-size: 3.5rem;
+        margin-left: 150px;
+        color: #DDFFD9;
+        font-family: SPACEGROTESK;
+        position: absolute;
+        top: -10px;
+        right: 50px;
+    }
+
+    #NIVELES h4 {
+        width: 60%;
+        font-size: 1.5rem;
+        text-align: right;
+        align-self: flex-end;
+        margin-right: 50px;
+        margin-top: 50px;
+    }
+
+    #NIVELES .Boton1 {
+        position: relative;
+        width: 200px;
+        height: 25px;
+        top: -50px;
+        right: -500px;
+    }
+
+    .CARRUSEL {
+        padding: 60px 0;
+    }
+
+    .CARRUSEL:active {
+        cursor: grabbing;
+    }
+
+    .CARRUSEL::-webkit-scrollbar {
+    display: none;
+    }
+
+    .CARRUSEL_CARDS {
+        padding-left: 15%;
+        gap: 40px;
+    }
+
+    #NIVELES .CARD3 {
+        width: 350px;
+        height: 200px;
+        transition: all 0.3s ease;
+    }
+
+    #NIVELES .CARD3 h5 {
+    font-size: 1.2rem;
+    padding-left: 10px;
+    margin-left: 20px;
+    font-weight: bolder;
+
+}
+
+    #HOMBRE {
+        width: 100vw;
+        height: 80vh;
+        align-items: center;
+        position: relative;
+        top: 30px;
+    }
+
+    #HOMBRE h2 {
+        font-size: 3.5rem;
+        margin-left: -460px;
+        color: #DDFFD9;
+        font-family: SPACEGROTESK;
+        position: absolute;
+        top: -10px;
+    }
+
+    #HOMBRE h4 {
+        color: #DDFFD9;
+        font-family: SPACEGROTESK;
+        font-weight: lighter;
+        letter-spacing: 4%;
+        width: 65%;
+        text-align: left;
+        text-transform: uppercase;
+        margin-left: -360px;
+        margin-top: -50px;
+    }
+
+    #HOMBRE .Boton2 {
+        position: relative;
+        width: 200px;
+        height: 20px;
+        top: 20px;
+        right: 560px;
+    }
+
+
+    #FOOTER {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    }
+
+    #FOOTERTEXT {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    }
+
+    #FOOTER .icon {
+    position: absolute;
+    bottom: 125px;
+    left: 10%;
+    }
+
+    #FOOTER .flecha {
+    position: absolute;
+    bottom: 120px;
+    left: 90%;
+    }
+
+    #bgmenu {
+    position: absolute;
+    left: 910px;
+    width: 250px;
+    }
+
+    .IDIOMA {
+    position: absolute;
+    right: 10px;
+    }
+
+    #flecha {
+    width: 150px;
+    margin-left: 50px;
+
+}
+}

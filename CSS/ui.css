@@ -158,6 +158,49 @@
     transform: scale(1.02);
 }
 
+
+.CARD3  {
+    width: 280px;
+    height: 200px;
+    background-color: #060c0e;
+    color: #DDFFD9;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #77CBB9;
+    transition: all 0.3s ease-in-out;
+}
+
+.CARD3 h5 {
+    font-family: SPACEGROTESK;
+    font-size: 0.9rem;
+    margin-left: 20px;
+    color: #d10000;
+    font-weight: bolder;
+    padding-right: 15px;
+
+}
+
+.CARD3 p {
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.CARD3:hover {
+     border: 1px solid #DDFFD9;
+     box-shadow: 0px 0px 6px 2px #DDFFD9,
+        inset 0px 0px 6px 2px #DDFFD9;
+
+    text-shadow:
+    0 0 2.5px #d10000;
+    color: #FF1C1C;
+    transform: scale(1.04);
+}
+
+b {
+    font-weight: bolder;
+    color: #FF1C1C;
+}
 /* DESKTOP */
 
 @media screen and (min-width: 1024px) {

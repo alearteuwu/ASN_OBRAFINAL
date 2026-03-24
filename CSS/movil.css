@@ -17,8 +17,6 @@ main {
     height: auto;
 }
 
-/* TAMAÑO MÓVIL */
-
 header nav {
     background: linear-gradient(to bottom,
             #060c0e 0%,
@@ -119,6 +117,8 @@ header span:hover {
 nav p {
     margin-right: 20px;
 }
+
+/* INDEX */
 
 #INICIO, #INFO, #MEDIA, #FAQ, #NEWSLETTER {
     width: 100vw;
@@ -432,3 +432,4 @@ section .MEDIACARDS {
     color: #d10000;
     text-decoration: underline;
 }
+
