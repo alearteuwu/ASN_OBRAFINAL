@@ -316,6 +316,38 @@
     left: 50%;
     }
 
+    #LEGALTEXT {
+        font-size: 0.8rem;
+        position: absolute;
+        top: 110px;
+        left: 0%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #LEGALTEXT a:hover {
+        color: #77CBB9;
+        text-decoration: underline;
+    }
+
+    #LEGALTEXT a:active {
+        color: #d10000;
+        text-decoration: underline;
+    }
+
+    #COPYRIGHT {
+        font-weight: bold;
+        color: #d10000;
+        position: absolute;
+        top: 150px;
+        left: 36%;
+    }
+
+    #COPYRIGHT .ENG {
+    margin-left: 5%;
+    }
+
     #FOOTER .icon {
     position: absolute;
     bottom: 125px;

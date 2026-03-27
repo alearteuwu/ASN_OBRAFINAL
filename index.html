@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="CSS/ui.css">
     <link rel="stylesheet" href="CSS/animaciones.css">
     <link rel="shortcut icon" href="IMG/BP_ICON.png" type="image/x-icon">
+    <script src="JS/idioma.js" defer></script>
 </head>
 
 <body>
@@ -18,9 +19,9 @@
         <nav>
             <picture id="logo"><a href="index.html"><img src="IMG/BP_LOGO.png" alt="BetPunk Logo"></a></picture>
             <section class="IDIOMA">
-                <span id="ESP">ESP</span>
+                <span id="IconoESP">ESP</span>
                 <p>/</p>
-                <span id="ENG">ENG</span>
+                <span id="IconoENG">ENG</span>
                 <picture id="flecha">
                     <source srcset="IMG/BP_FLECHA_DESKTOP.png" media="(min-width: 1024px)">
                     <img src="IMG/BP_FLECHA.png" alt="BetPunk Menu Icon">
@@ -28,11 +29,14 @@
             </section>
 
             <ul id="bgmenu">
-                <li><a href="index.html">> INICIO</a></li>
+                <li><a href="index.html" class="ESP">> INICIO</a></li>
+                <li><a href="index.html" class="ENG">> HOME</a></li>
                 <li><a href="info.html">> INFO</a></li>
                 <li><a href="...">> MEDIA</a></li>
-                <li><a href="...">> DUDAS</a></li>
-                <li><a href="...">> REGISTRATE</a></li>
+                <li><a href="..." class="ESP">> DUDAS</a></li>
+                <li><a href="..." class="ENG">> FAQ</a></li>
+                <li><a href="..." class="ESP">> REGISTRATE</a></li>
+                <li><a href="..." class="ENG">> SIGN UP</a></li>
             </ul>
         </nav>
     </header>
@@ -41,8 +45,10 @@
         <section id="INICIO">
             <div id="BLUR"></div>
             <video autoplay muted loop playsinline>
-                <source src="VID/FINAL_ELEVATOR.mp4" type="video/mp4" media="(min-width:1024px)"></source>
-                <source src="VID/Elevator_Movil.mp4" type="video/mp4" media="(max-width: 1023px)"></source>
+                <source src="VID/FINAL_ELEVATOR.mp4" type="video/mp4" media="(min-width:1024px)">
+                </source>
+                <source src="VID/Elevator_Movil.mp4" type="video/mp4" media="(max-width: 1023px)">
+                </source>
             </video>
 
             <section class="contenido-inicio">
@@ -52,8 +58,10 @@
                 </picture>
 
                 <h2 class="ESP">50 AÑOS. ESO ES TODO LO QUE TIENES.</h2>
+                <h2 class="ENG">50 YEARS. THAT'S ALL YOU'VE GOT.</h2>
 
-                <h3>> AÑADIR A LA LISTA DE DESEOS</h3>
+                <h3 class="ESP">> AÑADIR A LA LISTA DE DESEOS</h3>
+                <h3 class="ENG">> ADD TO STEAM WISHLIST NOW</h3>
 
                 <section class="contenido-boton">
                     <div class="Boton1">
@@ -61,7 +69,8 @@
                     </div>
 
                     <div class="Boton2">
-                        <a href="...">REGISTRATE</a>
+                        <a href="..." class="ESP">REGISTRATE</a>
+                        <a href="..." class="ENG">SIGN UP</a>
                     </div>
                 </section>
 
@@ -72,44 +81,61 @@
             <h2>> INFO</h2>
 
             <div class="CARD1">
-                <h4>> Sumérgete en BetPunk</h4>
-                <p>
+                <h4 class="ESP">> Sumérgete en BetPunk</h4>
+                <h4 class="ENG">> Enter BetPunk</h4>
+                <p class="ESP">
                     Las luces parpadean, las paredes
                     observan y el tiempo se
                     escapa entre tus dedos.
                 </p>
-                <p>
+                <p class="ENG">
+                    The lights flicker, the walls
+                    watch, and time slips through
+                    your fingers.
+                </p>
+                <p class="ESP">
                     Acércate… si te atreves a
                     descubrir lo que se oculta en
                     su interior.
                 </p>
+                <p class="ENG">
+                    Step close… if you dare
+                    to uncover what lies
+                    inside.
+                </p>
             </div>
 
             <div class="Boton1">
-                <a href="...">Ver Más</a>
+                <a href="..." class="ESP">Ver Más</a>
+                <a href="..." class="ENG">Learn More</a>
             </div>
         </section>
 
         <section id="MEDIA" class="autoshow">
             <h2>> MEDIA</h2>
             <div class="Boton2">
-                <a href="...">VER MEDIA</a>
+                <a href="..." class="ESP">VER MEDIA</a>
+                <a href="..." class="ENG">VIEW MEDIA</a>
             </div>
             <section class="MEDIACARDS">
                 <div class="CARD2">
-                    <h4>> Los Niveles de BetPunk</h4>
+                    <h4 class="ESP">> Los Niveles de BetPunk</h4>
+                    <h4 class="ENG">> The Levels of BetPunk</h4>
                     <picture><img src="IMG/IMG_HUB.png" alt="IMG Hub"></picture>
                 </div>
                 <div class="Boton1">
-                    <a href="...">Ver Pisos Visuales</a>
+                    <a href="..." class="ESP">Ver Pisos Visuales</a>
+                    <a href="..." class="ENG">View Floor Visuals</a>
                 </div>
 
                 <div class="CARD2">
-                    <h4>> El Hombre Detrás de la Barra</h4>
+                    <h4 class="ESP">> El Hombre Detrás de la Barra</h4>
+                    <h4 class="ENG">> The Man Behind the Counter</h4>
                     <picture><img src="IMG/IMG_BG_PORTRAIT.png" alt="IMG Hub"></picture>
                 </div>
                 <div class="Boton1">
-                    <a href="...">Ver Visuales</a>
+                    <a href="..." class="ESP">Ver Visuales</a>
+                    <a href="..." class="ENG">View Visuals</a>
                 </div>
             </section>
         </section>
@@ -121,9 +147,11 @@
                 <img src="IMG/Picas_Movil.png" class="Space Icons" alt="">
             </picture>
             <section class="FAQCONTENT">
-                <h2>CONOCE MÁS SOBRE<br>BETPUNK</h2>
+                <h2 class="ESP">CONOCE MÁS SOBRE<br>BETPUNK</h2>
+                <h2 class="ENG">LEARN MORE ABOUT<br>BETPUNK</h2>
                 <div class="Boton2">
-                    <a href="#">VER DUDAS</a>
+                    <a href="#" class="ESP">VER DUDAS</a>
+                    <a href="#" class="ENG">VIEW FAQ</a>
                 </div>
             </section>
         </section>
@@ -131,10 +159,12 @@
 
 
         <section id="NEWSLETTER" class="autoshow">
-            <h2>> NEWSLETTER</h2>
-            <h4>Recibe las últimas novedades de betpunk directamente en tu bandeja de entrada.</h4>
+            <h2>NEWSLETTER</h2>
+            <h4 class="ESP">Recibe las últimas novedades de betpunk directamente en tu bandeja de entrada.</h4>
+            <h4 class="ENG">Get the latest news from Betpunk delivered straight to your inbox.</h4>
             <div class="Boton2">
-                <a href="...">REGISTRATE</a>
+                <a href="..." class="ESP">REGISTRATE</a>
+                <a href="..." class="ENG">SIGN UP</a>
             </div>
         </section>
     </main>
@@ -145,18 +175,32 @@
         <picture class="flecha"><a href="#INICIO"><img src="IMG/BP_FLECHA_FOOTER.png" alt="BetPunk Menu Icon"></a>
         </picture>
         <section id="FOOTERTEXT">
-            <p><a href="index.html">INICIO</a></p>
+            <p><a href="index.html" class="ESP">INICIO</a></p>
+            <p><a href="index.html" class="ENG">HOME</a></p>
             <p>/</p>
             <p><a href="info.html">INFO</a></p>
             <p>/</p>
             <p><a href="">MEDIA</a></p>
             <p>/</p>
-            <p><a href="">DUDAS</a></p>
+            <p><a href="" class="ESP">DUDAS</a></p>
+            <p><a href="" class="ENG">FAQ</a></p>
             <p>/</p>
-            <p><a href="">REGISTRATE</a></p>
+            <p><a href="" class="ESP">REGISTRATE</a></p>
+            <p><a href="" class="ENG">SIGN UP</a></p>
         </section>
 
+        <section id="LEGALTEXT">
+            <p><a href="" class="ESP">AVISO LEGAL</a></p>
+            <p><a href="" class="ENG">LEGAL NOTICE</a></p>
 
+            <p><a href="" class="ESP">POLÍTICA DE PRIVACIDAD</a></p>
+            <p><a href="" class="ENG">PRIVACY POLICY</a></p>
+        </section>
+
+        <section id="COPYRIGHT">
+            <p class="ESP">© 2026 BETPUNK - TODOS LOS DERECHOS RESERVADOS</p>
+            <p class="ENG">© 2026 BETPUNK - ALL RIGHTS RESERVED</p>
+        </section>
     </footer>
 </body>
 <script src="JS/javacode.js"></script>
