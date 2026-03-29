@@ -261,7 +261,7 @@ nav p {
     color: #DDFFD9;
     font-family: SPACEGROTESK;
     position:absolute;
-    top: 10px;
+    top: 30px;
 }
 
 #MEDIA .Boton1 {
@@ -270,15 +270,15 @@ nav p {
 
 #MEDIA .Boton2 {
     position: absolute;
-    top: 50px;
+    top: 90px;
 }
 
-section .MEDIACARDS {
+/* section .MEDIACARDS {
     padding: 10px;
     width: 80vw;
     position: absolute;
     top: 150px;
-}
+} */
 
 #FAQ {
     top: -10px;

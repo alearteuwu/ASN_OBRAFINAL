@@ -173,10 +173,11 @@
     align-items: center; 
     margin-left: 210px;
     gap: 40px;      
-    width: 90%;         
-    max-width: 1200px; 
+    width: 100%;         
     }
-
+    .MEDIACARDS img {
+        scale: 100%;
+    }
     .MEDIACARDS .Boton1, .MEDIACARDS .Boton2 {
     position: static; 
     margin: 20px auto 0 auto;
@@ -188,7 +189,7 @@
     }
 
     #MEDIA .Boton2 {
-        top: 350px;
+        top: 400px;
         right: 43%;
         z-index: 2;
     }
@@ -265,8 +266,6 @@
 }
 
     #NEWSLETTER {
-    /* position: relative;
-    top: -10px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
