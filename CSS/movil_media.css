@@ -1,0 +1,214 @@
+/* INFO */
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #060c0e;
+    background-image: url(../IMG/fondo_movil_info.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    background: linear-gradient(to bottom,
+            #060c0e 0%,
+            #060c0e 75%,
+            rgba(0, 0, 0, 0.434) 85%,
+            rgba(0, 0, 0, 0) 100%);
+    width: 100vw;
+    height: 8vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: SPACEGROTESK;
+    color: #DDFFD9;
+    position: fixed;
+    z-index: 3;
+}
+
+#logo {
+    width: 200px;
+    margin-left: 20px;
+    margin-top: -5px;
+    transition: 0.3s ease-in-out;
+}
+
+#logo:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#flecha {
+    width: 30px;
+    margin-left: 15px;
+    margin-right: 35px;
+    transition: 0.3s ease-in-out;
+}
+
+#flecha:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+nav section {
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+}
+
+#bgmenu {
+    width: 1000px;
+    font-family: ETHNOCENTRIC;
+    display: none;
+    margin-top: 190px;
+    margin-left: 250px;
+    position: absolute;
+    background-color: #060c0e95;
+    padding: 20px;
+    list-style: none;
+    border-radius: 8px;
+}
+
+#bgmenu li,
+a {
+    margin-top: 5px;
+    text-decoration: none;
+    color: #DDFFD9;
+}
+
+#bgmenu li a:hover {
+    color: #77CBB9;
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+
+#bgmenu li a:active {
+    color: #d10000;
+    text-decoration: underline;
+    transition: ease-in;
+}
+
+header span {
+    transition: 0.3s ease-in-out;
+}
+
+header span:hover {
+    color: #d10000;
+    text-decoration: underline;
+    transform: scale(1.2);
+
+    cursor: pointer;
+}
+
+nav p {
+    margin-right: 20px;
+}
+
+#M_MEDIA, #HOMBRE {
+    width: 100vw;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+#M_MEDIA {
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+}
+
+#M_MEDIA h2 {
+    margin-left: 40px;
+    color: #DDFFD9;
+    font-family: SPACEGROTESK;
+    position:absolute;
+    top: 100px;
+}
+
+#M_MEDIA .CARD1 p {
+    text-transform: none;
+}
+
+#M_MEDIA .CARD1 {
+    margin-top: 125px;
+    width: 325px;
+}
+
+.CARRUSEL {
+    width: 100vw;
+    overflow-x: auto;
+    display: block;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 250px;
+}
+
+.CARRUSEL:active {
+    cursor: grabbing;
+}
+
+.CARRUSEL::-webkit-scrollbar {
+    display: none;
+}
+
+.CARRUSEL_CARDS {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    gap: 20px;
+    padding: 20px 50px;
+    width: max-content;
+}
+
+.CARRUSEL img {
+        scale: 50%;
+        margin-top: -100px;
+    }
+
+#HOMBRE {
+    width: 100vw;
+    height: 80vh;
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
+
+#HOMBRE h2 {
+    margin-left: 40px;
+    color: #DDFFD9;
+    font-family: SPACEGROTESK;
+    position:absolute;
+    top: -10px;
+}
+
+#HOMBRE h4 {
+    color: #DDFFD9;
+    font-family: SPACEGROTESK;
+    font-weight: lighter;
+    letter-spacing: 4%;
+    width: 85%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 60px;
+    margin-top: -50px;
+}
+
+#HOMBRE .Boton2 {
+    position: relative;
+    width: 220px;
+    height: 20px;
+    top: 200px;
+    right: 250px;
+}
+
+.CARRUSEL_CARDS {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
