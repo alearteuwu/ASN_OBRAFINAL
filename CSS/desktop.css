@@ -340,7 +340,7 @@
         color: #d10000;
         position: absolute;
         top: 150px;
-        left: 36%;
+        left: 0;
     }
 
     #COPYRIGHT .ENG {
@@ -351,6 +351,7 @@
     position: absolute;
     bottom: 125px;
     left: 10%;
+    z-index: 10;
     }
 
     #FOOTER .flecha {

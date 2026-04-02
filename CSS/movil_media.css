@@ -132,15 +132,6 @@ nav p {
     top: 100px;
 }
 
-#M_MEDIA .CARD1 p {
-    text-transform: none;
-}
-
-#M_MEDIA .CARD1 {
-    margin-top: 125px;
-    width: 325px;
-}
-
 .CARRUSEL {
     width: 100vw;
     overflow-x: auto;
@@ -192,7 +183,7 @@ nav p {
     font-family: SPACEGROTESK;
     font-weight: lighter;
     letter-spacing: 4%;
-    width: 40%;
+    width: 55%;
     text-align: left;
     text-transform: uppercase;
     position: absolute;

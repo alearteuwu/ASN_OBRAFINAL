@@ -9,9 +9,6 @@ body {
 }
 
 main {
-    /* display: grid;
-    grid-template-columns: 1fr;
-    height: 500vh; */
     display: flex;
     flex-direction: column;
     height: auto;
@@ -62,6 +59,7 @@ header nav {
 
 img {
     width: 100%;
+    margin-left: -10px;
 }
 
 nav section {
@@ -222,7 +220,7 @@ nav p {
     width: 25%;
     position: absolute;
     top: 660px;
-    left: 65%;
+    left: 60%;
 }
 
 #INFO {
@@ -243,6 +241,7 @@ nav p {
 
 #INFO .Boton1 {
     position: absolute;
+    width: 150px;
     top: 300px;
     height: 2.5vh;
 }
@@ -269,16 +268,10 @@ nav p {
 }
 
 #MEDIA .Boton2 {
+    width: 130px;
     position: absolute;
     top: 90px;
 }
-
-/* section .MEDIACARDS {
-    padding: 10px;
-    width: 80vw;
-    position: absolute;
-    top: 150px;
-} */
 
 #FAQ {
     top: -10px;
@@ -358,7 +351,7 @@ nav p {
     width: 25%;
     position: absolute;
     top: 540px;
-    left: 48%;
+    left: 47%;
     transform: translateX(-50%);
 }
 
@@ -436,7 +429,7 @@ nav p {
 #LEGALTEXT {
     position: absolute;
     font-size: 0.8rem;
-    top: 110px;
+    top: 150px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -460,8 +453,9 @@ nav p {
     width: 100%;
     color: #d10000;
     position: absolute;
-    top: 150px;
-    left: 5%;
+    top: 180px;
+    left: -10px;
+    text-align: center;
     }
 
 #COPYRIGHT .ENG {
