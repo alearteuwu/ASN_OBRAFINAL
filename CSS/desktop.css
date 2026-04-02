@@ -357,6 +357,7 @@
     position: absolute;
     bottom: 120px;
     left: 90%;
+    z-index: 10;
     }
 
     #bgmenu {

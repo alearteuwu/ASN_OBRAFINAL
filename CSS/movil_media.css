@@ -5,7 +5,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     background-color: #060c0e;
-    background-image: url(../IMG/fondo_movil_info.png);
+    background-image: url(../IMG/fondo_movil_media.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -192,11 +192,20 @@ nav p {
     font-family: SPACEGROTESK;
     font-weight: lighter;
     letter-spacing: 4%;
-    width: 85%;
+    width: 40%;
     text-align: left;
     text-transform: uppercase;
-    margin-left: 60px;
-    margin-top: -50px;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    background-color: #060c0e70;
+    padding: 20px;
+    border: 1px solid #DDFFD9;
+    border-radius: 8px;
+}
+
+#HOMBRE img {
+    scale: 110%;
 }
 
 #HOMBRE .Boton2 {
