@@ -1,0 +1,206 @@
+/* INFO */
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #060c0e;
+    background-image: url(../IMG/fondo_movil_dudas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    background: linear-gradient(to bottom,
+            #060c0e 0%,
+            #060c0e 75%,
+            rgba(0, 0, 0, 0.434) 85%,
+            rgba(0, 0, 0, 0) 100%);
+    width: 100vw;
+    height: 8vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: SPACEGROTESK;
+    color: #DDFFD9;
+    position: fixed;
+    z-index: 3;
+}
+
+#logo {
+    width: 200px;
+    margin-left: 20px;
+    margin-top: -5px;
+    transition: 0.3s ease-in-out;
+}
+
+#logo:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#flecha {
+    width: 30px;
+    margin-left: 15px;
+    margin-right: 35px;
+    transition: 0.3s ease-in-out;
+}
+
+#flecha:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+nav section {
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+}
+
+#bgmenu {
+    width: 1000px;
+    font-family: ETHNOCENTRIC;
+    display: none;
+    margin-top: 190px;
+    margin-left: 250px;
+    position: absolute;
+    background-color: #060c0e95;
+    padding: 20px;
+    list-style: none;
+    border-radius: 8px;
+}
+
+#bgmenu li,
+a {
+    margin-top: 5px;
+    text-decoration: none;
+    color: #DDFFD9;
+}
+
+#bgmenu li a:hover {
+    color: #77CBB9;
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+
+#bgmenu li a:active {
+    color: #d10000;
+    text-decoration: underline;
+    transition: ease-in;
+}
+
+header span {
+    transition: 0.3s ease-in-out;
+}
+
+header span:hover {
+    color: #d10000;
+    text-decoration: underline;
+    transform: scale(1.2);
+
+    cursor: pointer;
+}
+
+nav p {
+    margin-right: 20px;
+}
+
+#FAQ {
+    width: 100vw;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+#FAQ {
+    width: 100vw;
+    height: 120vh;
+    position: relative;
+}
+
+#FAQ h2 {
+    width: 100%;
+    margin-left: -40px;
+    color: #DDFFD9;
+    font-family: SPACEGROTESK;
+    font-weight: bolder;
+    position:absolute;
+    top: 100px;
+}
+ 
+.acordeon {
+    margin-top: 200px;
+    padding: 15px 35px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+.acordeon-item {
+  border-bottom: 1px solid #DDFFD9;
+}
+
+.acordeon-header {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #DDFFD9;
+  background-color: #FF1C1C25;
+  color: #DDFFD9;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0px 0px 0px 1px #DDFFD9,
+        inset 0px 0px 8px 1px #DDFFD9;
+  transition: all 0.3s ease-in-out;
+}
+
+.acordeon-header::after {
+  content: "";
+  width: 1.25rem;
+  height: 1.25rem;
+  background-image: url("../IMG/BP_FLECHA_ACCORDEON.png");
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  position: absolute;
+  right: 1.25rem;
+  top: 60%;
+  transform: translateY(-50%);
+  transition: all 0.3s ease-in-out;
+}
+
+.acordeon-header:hover {
+  color: #77CBB9;
+  text-decoration: underline;
+}
+
+.acordeon-header:active {
+  color: #FF1C1C;
+  text-decoration: underline;
+}
+
+.acordeon-header.active::after {
+  transform: translateY(-80%) rotate(180deg);
+}
+
+.acordeon-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 15px;
+  box-shadow: 0px 0px 0px 1px #DDFFD9,
+  inset 0px 0px 8px 1px #DDFFD9;
+}
+
+.acordeon-body p {
+  margin: 15px 0;
+  color: #DDFFD9;
+}

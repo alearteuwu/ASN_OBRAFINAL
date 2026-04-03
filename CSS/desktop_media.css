@@ -41,15 +41,6 @@
         top: 50px;
     }
 
-    #M_MEDIA .CARD1 p {
-        text-transform: none;
-    }
-
-    #M_MEDIA .CARD1 {
-        margin-top: 50px;
-        width: 1025px;
-    }
-
     .CARRUSEL {
         overflow-y: hidden !important;
         overflow-x: auto;

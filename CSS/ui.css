@@ -62,6 +62,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .Boton2 a {
@@ -78,6 +85,13 @@
     transform: scale(1.1);
 }
 
+.button-center-wrapper {
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+    align-items: center;
+    margin-top: -40px;
+}
 
 /* CARDS */
 
@@ -107,7 +121,7 @@
     color: #DDFFD9;
     letter-spacing: 2%;
     width: 80%;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .CARD1:hover {

@@ -16,7 +16,10 @@
     }
 
 
-    #INICIO, #INFO, #MEDIA, #NEWSLETTER {
+    #INICIO,
+    #INFO,
+    #MEDIA,
+    #NEWSLETTER {
         min-height: 100vh;
         width: 100%;
         display: flex;
@@ -42,11 +45,11 @@
     }
 
     #INICIO .contenido-inicio {
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 1200px;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1200px;
     }
 
     #INICIO picture {
@@ -82,24 +85,25 @@
     }
 
     .button-container {
-    display: flex;
-    gap: 40px;
+        display: flex;
+        gap: 40px;
     }
 
-    #INICIO .Boton1, #INICIO .Boton2 {
-    position: static;
-    width: 250px;
-    height: 60px;
+    #INICIO .Boton1,
+    #INICIO .Boton2 {
+        position: static;
+        width: 250px;
+        height: 60px;
     }
 
     #INICIO .Boton1 {
         position: absolute;
-        top: 600px; 
+        top: 600px;
         left: 50px;
-        
+
         width: 300px;
-        height: 60px; 
-        
+        height: 60px;
+
         margin: 0;
         z-index: 1;
         border: 2px solid #77CBB9;
@@ -112,9 +116,9 @@
 
     #INICIO .Boton2 {
         position: absolute;
-        top: 600px; 
+        top: 600px;
         margin-left: 200px;
-        
+
         width: 250px;
         height: 60px;
         z-index: 1;
@@ -130,62 +134,65 @@
         border-color: #DDFFD9;
     }
 
-    #INFO{
-    align-items: flex-start;
-    padding-left: -10%;
+    #INFO {
+        align-items: flex-start;
+        padding-left: -10%;
     }
 
     #INFO h2 {
-    font-size: 3.5rem;
-    position: absolute;
-    top:-30px;
-    left: 50px;
+        font-size: 3.5rem;
+        position: absolute;
+        top: -30px;
+        left: 50px;
     }
 
     #INFO .Boton1 {
-    position: static;
-    margin-bottom: -350px;
-    margin-left: 60px;
+        position: static;
+        margin-bottom: -350px;
+        margin-left: 60px;
     }
 
     #MEDIA {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-    width: 100vw;
-    position: relative;
-    padding: 60px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: 100vw;
+        position: relative;
+        padding: 60px 0;
     }
 
     #MEDIA h2 {
-    font-size: 3.5rem;
-    position: absolute;
-    top:-30px;
-    left: 50px;
+        font-size: 3.5rem;
+        position: absolute;
+        top: -30px;
+        left: 50px;
     }
 
     .MEDIACARDS {
-    display: flex;
-    flex-direction: row;    
-    justify-content: center;
-    align-items: center; 
-    margin-left: 210px;
-    gap: 40px;      
-    width: 100%;         
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 210px;
+        gap: 40px;
+        width: 100%;
     }
+
     .MEDIACARDS img {
         scale: 100%;
     }
-    .MEDIACARDS .Boton1, .MEDIACARDS .Boton2 {
-    position: static; 
-    margin: 20px auto 0 auto;
-    width: 450px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    .MEDIACARDS .Boton1,
+    .MEDIACARDS .Boton2 {
+        position: static;
+        margin: 20px auto 0 auto;
+        width: 450px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #MEDIA .Boton2 {
@@ -208,111 +215,111 @@
     }
 
     #FAQ {
-    min-height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
+        min-height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
     }
 
     #FAQ .PICAS {
-    position: absolute;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #FAQ .PICAS img {
-    position: relative;
-    left: 130%;
-    top: 5px;
-    scale: 260%;
-    width: 600px;
-    opacity: 0.3;
+        position: relative;
+        left: 130%;
+        top: 5px;
+        scale: 260%;
+        width: 600px;
+        opacity: 0.3;
     }
 
     #FAQ h2 {
-    font-size: 4rem;
-    font-family: SPACEGROTESK;
-    color: #DDFFD9;
-    margin-bottom: 40px;
-    line-height: 1.1;
+        font-size: 4rem;
+        font-family: SPACEGROTESK;
+        color: #DDFFD9;
+        margin-bottom: 40px;
+        line-height: 1.1;
     }
 
     #FAQ .Boton2 {
-    position: absolute;
-    top: 500px;
-    right:50%;
-    width: 150px;
-    height: 20px;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        position: absolute;
+        top: 500px;
+        right: 50%;
+        width: 150px;
+        height: 20px;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    #FAQ .Boton2:hover, 
+    #FAQ .Boton2:hover,
     #NEWSLETTER .Boton2:hover {
-    transform: translate(-50%, 0) scale(1.1); 
-    
-    background-color: #FF1C1C;
-    box-shadow: 0px 0px 6px 2px #FF1C1C;
-    text-shadow: 0 0 5px #DDFFD9;
-    text-decoration: underline;
-    text-decoration-color: #77CBB9;
-}
+        transform: translate(-50%, 0) scale(1.1);
+
+        background-color: #FF1C1C;
+        box-shadow: 0px 0px 6px 2px #FF1C1C;
+        text-shadow: 0 0 5px #DDFFD9;
+        text-decoration: underline;
+        text-decoration-color: #77CBB9;
+    }
 
     #NEWSLETTER {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-    position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+        position: relative;
     }
 
     #NEWSLETTER h2 {
-    font-size: 3.5rem;
-    position: absolute;
-    top:-30px;
-    left: 50px;
+        font-size: 3.5rem;
+        position: absolute;
+        top: -30px;
+        left: 50px;
     }
 
     #NEWSLETTER h4 {
-    font-size: 3.5rem;
-    width: 90%;
-    position: static;
-    margin-left: 90%;
-    margin-top: 5%;
+        font-size: 3.5rem;
+        width: 90%;
+        position: static;
+        margin-left: 90%;
+        margin-top: 5%;
     }
 
     #NEWSLETTER .Boton2 {
-    position: static; 
-    margin-left: 15%;
-    width: 200px;
-    height: 20px;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
+        position: static;
+        margin-left: 15%;
+        width: 200px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
     }
 
     #FOOTER {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 50px;
     }
 
     #FOOTERTEXT {
-    position: absolute;
-    top: 90px;
-    left: 50%;
+        position: absolute;
+        top: 90px;
+        left: 50%;
     }
 
     #LEGALTEXT {
@@ -344,36 +351,36 @@
     }
 
     #COPYRIGHT .ENG {
-    margin-left: 5%;
+        margin-left: 5%;
     }
 
     #FOOTER .icon {
-    position: absolute;
-    bottom: 125px;
-    left: 10%;
-    z-index: 10;
+        position: absolute;
+        bottom: 125px;
+        left: 10%;
+        z-index: 10;
     }
 
     #FOOTER .flecha {
-    position: absolute;
-    bottom: 120px;
-    left: 90%;
-    z-index: 10;
+        position: absolute;
+        bottom: 120px;
+        left: 90%;
+        z-index: 10;
     }
 
     #bgmenu {
-    position: absolute;
-    left: 910px;
-    width: 250px;
+        position: absolute;
+        left: 910px;
+        width: 250px;
     }
 
     .IDIOMA {
-    position: absolute;
-    right: 10px;
+        position: absolute;
+        right: 10px;
     }
 
     #flecha {
-    width: 150px;
-    margin-left: 50px;
+        width: 150px;
+        margin-left: 50px;
     }
 }

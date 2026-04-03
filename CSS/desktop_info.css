@@ -41,15 +41,6 @@
         top: 50px;
     }
 
-    #SOBRE .CARD1 p {
-        text-transform: none;
-    }
-
-    #SOBRE .CARD1 {
-        margin-top: 50px;
-        width: 1025px;
-    }
-
     #NIVELES {
         width: 100vw;
         min-height: 100vh;

@@ -1,0 +1,252 @@
+/* INFO */
+
+@media screen and (min-width: 1024px) {
+    
+   main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    body {
+        background-image: url(../IMG/fondo_desktop_registrate.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+
+    #REGISTRO, #AYUDA, #STEAM{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #REGISTRO {
+        width: 100vw;
+        height: 120vh;
+        position: relative;
+    }
+
+    #REGISTRO h2 {
+        margin-left: -10px;
+        font-size: 3.5rem;
+        color: #DDFFD9;
+        font-family: SPACEGROTESK;
+        position: absolute;
+        top: 100px;
+    }
+
+    #REGISTRO h4 {
+        width: 60%;
+        font-size: 1.5rem;
+        text-align: left;
+        align-self: flex-start;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+    #REGISTRO h5 {
+        width: 60%;
+        font-size: 0.9rem;
+        text-align: left;
+        align-self: flex-start;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+
+    .betpunk-form {
+    margin-left: -20px;   
+    width: 85%;
+    margin-top: 0;
+    }
+
+    .betpunk-form h2 {
+        margin-bottom: 30px;
+        display: block;
+        position: relative;
+        z-index: 10;
+    }
+
+    .betpunk-form ul {
+        clear: both;
+        margin-top: 20px;
+    }
+
+    .betpunk-form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+
+    .betpunk-form li {
+        margin-bottom: 20px;
+    }
+
+    .betpunk-form input, 
+    .betpunk-form textarea {
+        width: 100%;
+        background: #FF1C1C25;
+        border: 1.5px solid #DDFFD9;
+        border-radius: 8px;
+        padding: 15px;
+        color: #DDFFD9;
+        font-family: SPACEGROTESK;
+        text-transform: uppercase;
+        outline: none;
+        box-sizing: border-box;
+        transition: all 0.3s ease;
+    }
+
+    .betpunk-form input:focus, 
+    .betpunk-form textarea:focus {
+        box-shadow: 0px 0px 12px #DDFFD9, inset 0px 0px 5px #DDFFD9;
+        border-color: #77CBB9;
+        transform: scale(1.02);
+    }
+
+    .betpunk-form textarea {
+        height: 150px;
+        resize: none;
+    }
+
+    .betpunk-form .Boton2 {
+    margin-left: 0;
+    width: 100%;
+    }
+
+    .betpunk-form .Boton2:hover {
+    transform: scale(1.05);
+    }
+
+    ::placeholder {
+    color: #DDFFD9;
+    }
+
+    #AYUDA {
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #AYUDA h2 {
+        font-size: 3.5rem;
+        margin-left: 150px;
+        color: #DDFFD9;
+        font-family: SPACEGROTESK;
+        position: absolute;
+        top: -10px;
+        right: 20px;
+    }
+
+    #AYUDA h4 {
+        width: 40%;
+        font-size: 1.5rem;
+        text-align: right;
+        align-self: flex-end;
+        margin-right: 80px;
+        margin-top: -50px;
+    }
+
+    #AYUDA .betpunk-form {
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 0;
+    }
+    
+    .betpunk-form .Boton1:hover {
+    transform: scale(1.05);
+    }
+
+
+    #STEAM {
+        width: 100vw;
+        height: 5vh;
+        align-items: center;
+        position: relative;
+        top: 30px;
+    }
+
+    #STEAM h2 {
+        font-size: 3.5rem;
+        margin-left: -850px;
+        color: #DDFFD9;
+        font-family: SPACEGROTESK;
+        position: absolute;
+        top: -10px;
+    }
+
+    #STEAM h4 {
+        color: #DDFFD9;
+        font-family: SPACEGROTESK;
+        font-weight: lighter;
+        letter-spacing: 4%;
+        width: 65%;
+        text-align: left;
+        text-transform: uppercase;
+        margin-left: -350px;
+        margin-top: -350px;
+    }
+
+    #STEAM .Boton1 {
+        position: relative;
+        width: 145px;
+        height: 18px;
+        top: 20px;
+        left: -555px;
+    }
+
+
+    #FOOTER {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    }
+
+    #FOOTERTEXT {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    }
+
+    #FOOTER .icon {
+    position: absolute;
+    bottom: 125px;
+    left: 10%;
+    }
+
+    #FOOTER .flecha {
+    position: absolute;
+    bottom: 120px;
+    left: 90%;
+    }
+
+    #bgmenu {
+    position: absolute;
+    left: 910px;
+    width: 250px;
+    }
+
+    .IDIOMA {
+    position: absolute;
+    right: 10px;
+    }
+
+    #flecha {
+    width: 150px;
+    margin-left: 50px;
+
+}
+}
