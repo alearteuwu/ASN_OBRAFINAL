@@ -173,6 +173,7 @@ nav p {
     width: 100%;
     background: #FF1C1C25;
     border: 1.5px solid #DDFFD9;
+    color: #DDFFD9;
     border-radius: 4px;
     padding: 15px;
     margin-bottom: 15px;
@@ -273,5 +274,5 @@ button:focus {
     width: 250px;
     height: 20px;
     top: 50px;
-    left: -260px;
+    left: -200px;
 }
