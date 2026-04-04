@@ -144,6 +144,7 @@ nav p {
 #NIVELES {
     display: block;
     width: 100vw;
+    height: 65vh;
     overflow: hidden;
     padding: 50px 0;
 }
@@ -213,7 +214,7 @@ nav p {
 
 #HOMBRE {
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
     align-items: center;
     position: relative;
     top: 30px;
@@ -224,7 +225,7 @@ nav p {
     color: #DDFFD9;
     font-family: SPACEGROTESK;
     position:absolute;
-    top: -10px;
+    top: -20px;
 }
 
 #HOMBRE h4 {

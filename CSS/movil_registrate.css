@@ -221,6 +221,7 @@ button:focus {
     text-align: left;
     margin-right: 50px;
     text-align: right;
+    margin-top: -50px;
 }
 
 #AYUDA h4 {
@@ -246,7 +247,7 @@ button:focus {
     height: 50vh;
     align-items: center;
     position: relative;
-    top: 10px;
+    top: -100px;
 }
 
 #STEAM h2 {
@@ -270,9 +271,10 @@ button:focus {
 }
 
 #STEAM .Boton1 {
-    position: relative;
-    width: 250px;
-    height: 20px;
-    top: 50px;
-    left: -200px;
+    width: 95%;
+    height: 15px;
+    padding: 15px;
+    margin-left: -400px;
+    margin-top: 100px;
+    margin-right: 40px;
 }
