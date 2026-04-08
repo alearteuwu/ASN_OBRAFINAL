@@ -1,8 +1,8 @@
-/* INFO */
+/* REGISTRATE */
 
 @media screen and (min-width: 1024px) {
-    
-   main {
+
+    main {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -16,7 +16,9 @@
         overflow-x: hidden;
     }
 
-    #REGISTRO, #AYUDA, #STEAM{
+    #REGISTRO,
+    #AYUDA,
+    #STEAM {
         min-height: 100vh;
         width: 100%;
         display: flex;
@@ -28,7 +30,7 @@
 
     #REGISTRO {
         width: 100vw;
-        height: 120vh;
+        height: 50vh;
         position: relative;
     }
 
@@ -60,9 +62,9 @@
     }
 
     .betpunk-form {
-    margin-left: -20px;   
-    width: 85%;
-    margin-top: 0;
+        margin-left: -20px;
+        width: 85%;
+        margin-top: 0;
     }
 
     .betpunk-form h2 {
@@ -78,16 +80,16 @@
     }
 
     .betpunk-form ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+        list-style: none;
+        padding: 0;
+        margin: 0;
     }
 
     .betpunk-form li {
         margin-bottom: 20px;
     }
 
-    .betpunk-form input, 
+    .betpunk-form input,
     .betpunk-form textarea {
         width: 100%;
         background: #FF1C1C25;
@@ -102,7 +104,7 @@
         transition: all 0.3s ease;
     }
 
-    .betpunk-form input:focus, 
+    .betpunk-form input:focus,
     .betpunk-form textarea:focus {
         box-shadow: 0px 0px 12px #DDFFD9, inset 0px 0px 5px #DDFFD9;
         border-color: #77CBB9;
@@ -115,16 +117,16 @@
     }
 
     .betpunk-form .Boton2 {
-    margin-left: 0;
-    width: 100%;
+        margin-left: 0;
+        width: 100%;
     }
 
     .betpunk-form .Boton2:hover {
-    transform: scale(1.05);
+        transform: scale(1.05);
     }
 
     ::placeholder {
-    color: #DDFFD9;
+        color: #DDFFD9;
     }
 
     #AYUDA {
@@ -144,7 +146,7 @@
         color: #DDFFD9;
         font-family: SPACEGROTESK;
         position: absolute;
-        top: -10px;
+        top: 40px;
         right: 20px;
     }
 
@@ -154,7 +156,7 @@
         text-align: right;
         align-self: flex-end;
         margin-right: 80px;
-        margin-top: -50px;
+        margin-top: -100px;
     }
 
     #AYUDA .betpunk-form {
@@ -162,9 +164,9 @@
         margin-left: 20px;
         margin-top: 0;
     }
-    
+
     .betpunk-form .Boton1:hover {
-    transform: scale(1.05);
+        transform: scale(1.05);
     }
 
 
@@ -194,59 +196,59 @@
         text-align: left;
         text-transform: uppercase;
         margin-left: -350px;
-        margin-top: -350px;
+        margin-top: -250px;
     }
 
     #STEAM .Boton1 {
         position: relative;
         width: 145px;
         height: 18px;
-        top: 20px;
-        left: -555px;
+        top: -50px;
+        left: -325px;
     }
 
 
     #FOOTER {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    bottom: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 50px;
     }
 
     #FOOTERTEXT {
-    position: absolute;
-    top: 90px;
-    left: 50%;
+        position: absolute;
+        top: 90px;
+        left: 50%;
     }
 
     #FOOTER .icon {
-    position: absolute;
-    bottom: 125px;
-    left: 10%;
+        position: absolute;
+        bottom: 125px;
+        left: 10%;
     }
 
     #FOOTER .flecha {
-    position: absolute;
-    bottom: 120px;
-    left: 90%;
+        position: absolute;
+        bottom: 120px;
+        left: 90%;
     }
 
     #bgmenu {
-    position: absolute;
-    left: 910px;
-    width: 250px;
+        position: absolute;
+        left: 910px;
+        width: 250px;
     }
 
     .IDIOMA {
-    position: absolute;
-    right: 10px;
+        position: absolute;
+        right: 10px;
     }
 
     #flecha {
-    width: 150px;
-    margin-left: 50px;
+        width: 150px;
+        margin-left: 50px;
 
-}
+    }
 }

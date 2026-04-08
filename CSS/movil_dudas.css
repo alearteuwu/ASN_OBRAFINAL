@@ -1,4 +1,4 @@
-/* INFO */
+/* DUDAS */
 
 body {
     margin: 0 auto;
@@ -130,10 +130,10 @@ nav p {
     color: #DDFFD9;
     font-family: SPACEGROTESK;
     font-weight: bolder;
-    position:absolute;
+    position: absolute;
     top: 100px;
 }
- 
+
 .acordeon {
     margin-top: 200px;
     padding: 15px 35px;
@@ -144,63 +144,63 @@ nav p {
 }
 
 .acordeon-item {
-  border-bottom: 1px solid #DDFFD9;
+    border-bottom: 1px solid #DDFFD9;
 }
 
 .acordeon-header {
-  width: 100%;
-  padding: 15px;
-  border: 1px solid #DDFFD9;
-  background-color: #FF1C1C25;
-  color: #DDFFD9;
-  text-align: left;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  position: relative;
-  box-shadow: 0px 0px 0px 1px #DDFFD9,
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #DDFFD9;
+    background-color: #FF1C1C25;
+    color: #DDFFD9;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0px 0px 0px 1px #DDFFD9,
         inset 0px 0px 8px 1px #DDFFD9;
-  transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .acordeon-header::after {
-  content: "";
-  width: 1.25rem;
-  height: 1.25rem;
-  background-image: url("../IMG/BP_FLECHA_ACCORDEON.png");
-  background-repeat: no-repeat;
-  background-size: 1.25rem;
-  position: absolute;
-  right: 1.25rem;
-  top: 60%;
-  transform: translateY(-50%);
-  transition: all 0.3s ease-in-out;
+    content: "";
+    width: 1.25rem;
+    height: 1.25rem;
+    background-image: url("../IMG/BP_FLECHA_ACCORDEON.png");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    position: absolute;
+    right: 1.25rem;
+    top: 60%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in-out;
 }
 
 .acordeon-header:hover {
-  color: #77CBB9;
-  text-decoration: underline;
+    color: #77CBB9;
+    text-decoration: underline;
 }
 
 .acordeon-header:active {
-  color: #FF1C1C;
-  text-decoration: underline;
+    color: #FF1C1C;
+    text-decoration: underline;
 }
 
 .acordeon-header.active::after {
-  transform: translateY(-80%) rotate(180deg);
+    transform: translateY(-80%) rotate(180deg);
 }
 
 .acordeon-body {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-  padding: 0 15px;
-  box-shadow: 0px 0px 0px 1px #DDFFD9,
-  inset 0px 0px 8px 1px #DDFFD9;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 15px;
+    box-shadow: 0px 0px 0px 1px #DDFFD9,
+        inset 0px 0px 8px 1px #DDFFD9;
 }
 
 .acordeon-body p {
-  margin: 15px 0;
-  color: #DDFFD9;
+    margin: 15px 0;
+    color: #DDFFD9;
 }

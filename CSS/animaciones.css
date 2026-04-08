@@ -1,6 +1,6 @@
 .autoshow {
     animation: autoShowAnimation both;
-    animation-timeline: view(); 
+    animation-timeline: view();
     animation-range: entry 0% cover 30%;
 }
 
@@ -8,7 +8,9 @@
     from {
         opacity: 0;
         transform: translateY(200px) scale(0.3);
-    } to {
+    }
+
+    to {
         opacity: 1;
         transform: translateY(0) scale(1);
     }
@@ -16,32 +18,36 @@
 
 
 @keyframes Logo {
-        0% {
-            transform: scale(100%);
-            opacity: 100%;
-        }
-        10% {
-            transform: scale(0%);
-            opacity: 0%;
-        }
-        100% {
-            transform: scale(0%);
-            opacity: 0%;
-        }
+    0% {
+        transform: scale(100%);
+        opacity: 100%;
+    }
+
+    10% {
+        transform: scale(0%);
+        opacity: 0%;
+    }
+
+    100% {
+        transform: scale(0%);
+        opacity: 0%;
+    }
 }
 
 
 @keyframes Lema {
-        0% {
-            transform: scale(100%);
-            opacity: 100%;
-        }
-        10% {
-            transform: scale(0%);
-            opacity: 0%;
-        }
-        100% {
-            transform: scale(0%);
-            opacity: 0%;
-        }
+    0% {
+        transform: scale(100%);
+        opacity: 100%;
+    }
+
+    10% {
+        transform: scale(0%);
+        opacity: 0%;
+    }
+
+    100% {
+        transform: scale(0%);
+        opacity: 0%;
+    }
 }

@@ -1,8 +1,8 @@
-/* INFO */
+/* MEDIA */
 
 @media screen and (min-width: 1024px) {
-    
-   main {
+
+    main {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -16,7 +16,8 @@
         overflow-x: hidden;
     }
 
-    #M_MEDIA, #HOMBRE{
+    #M_MEDIA,
+    #HOMBRE {
         min-height: 100vh;
         width: 100%;
         display: flex;
@@ -53,7 +54,7 @@
     }
 
     .CARRUSEL::-webkit-scrollbar {
-    display: none;
+        display: none;
     }
 
     .CARRUSEL_CARDS {
@@ -116,46 +117,46 @@
 
 
     #FOOTER {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    bottom: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 50px;
     }
 
     #FOOTERTEXT {
-    position: absolute;
-    top: 90px;
-    left: 50%;
+        position: absolute;
+        top: 90px;
+        left: 50%;
     }
 
     #FOOTER .icon {
-    position: absolute;
-    bottom: 125px;
-    left: 10%;
+        position: absolute;
+        bottom: 125px;
+        left: 10%;
     }
 
     #FOOTER .flecha {
-    position: absolute;
-    bottom: 120px;
-    left: 90%;
+        position: absolute;
+        bottom: 120px;
+        left: 90%;
     }
 
     #bgmenu {
-    position: absolute;
-    left: 910px;
-    width: 250px;
+        position: absolute;
+        left: 910px;
+        width: 250px;
     }
 
     .IDIOMA {
-    position: absolute;
-    right: 10px;
+        position: absolute;
+        right: 10px;
     }
 
     #flecha {
-    width: 150px;
-    margin-left: 50px;
+        width: 150px;
+        margin-left: 50px;
 
-}
+    }
 }

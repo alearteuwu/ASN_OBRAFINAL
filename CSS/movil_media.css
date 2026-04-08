@@ -1,4 +1,4 @@
-/* INFO */
+/* MEDIA */
 
 body {
     margin: 0 auto;
@@ -111,7 +111,8 @@ nav p {
     margin-right: 20px;
 }
 
-#M_MEDIA, #HOMBRE {
+#M_MEDIA,
+#HOMBRE {
     width: 100vw;
     position: relative;
     display: flex;
@@ -128,7 +129,7 @@ nav p {
     margin-left: 40px;
     color: #DDFFD9;
     font-family: SPACEGROTESK;
-    position:absolute;
+    position: absolute;
     top: 100px;
 }
 
@@ -158,9 +159,9 @@ nav p {
 }
 
 .CARRUSEL img {
-        scale: 50%;
-        margin-top: -100px;
-    }
+    scale: 50%;
+    margin-top: -100px;
+}
 
 #HOMBRE {
     width: 100vw;
@@ -174,7 +175,7 @@ nav p {
     margin-left: 40px;
     color: #DDFFD9;
     font-family: SPACEGROTESK;
-    position:absolute;
+    position: absolute;
     top: -10px;
 }
 

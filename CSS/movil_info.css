@@ -111,7 +111,9 @@ nav p {
     margin-right: 20px;
 }
 
-#SOBRE, #NIVELES, #HOMBRE {
+#SOBRE,
+#NIVELES,
+#HOMBRE {
     width: 100vw;
     position: relative;
     display: flex;
@@ -128,7 +130,7 @@ nav p {
     margin-left: 40px;
     color: #DDFFD9;
     font-family: SPACEGROTESK;
-    position:absolute;
+    position: absolute;
     top: 100px;
 }
 
@@ -204,7 +206,7 @@ nav p {
 #NIVELES .CARD3 {
     position: relative;
     flex: 0 0 auto;
-    width: 55vw; 
+    width: 55vw;
     height: 180px;
     padding: 20px;
     border-radius: 8px;
@@ -224,7 +226,7 @@ nav p {
     margin-left: 40px;
     color: #DDFFD9;
     font-family: SPACEGROTESK;
-    position:absolute;
+    position: absolute;
     top: -20px;
 }
 

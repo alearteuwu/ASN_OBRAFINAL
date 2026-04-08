@@ -118,7 +118,11 @@ nav p {
 
 /* INDEX */
 
-#INICIO, #INFO, #MEDIA, #FAQ, #NEWSLETTER {
+#INICIO,
+#INFO,
+#MEDIA,
+#FAQ,
+#NEWSLETTER {
     width: 100vw;
     position: relative;
     display: flex;
@@ -161,10 +165,10 @@ nav p {
     width: 100%;
     position: absolute;
     top: 70px;
-    left: -5px;    
+    left: -5px;
     animation-name: Logo;
-        animation-delay: 26s;
-        animation-duration: 27s;
+    animation-delay: 26s;
+    animation-duration: 27s;
 }
 
 #INICIO picture img {
@@ -185,8 +189,8 @@ nav p {
     top: 445px;
 
     animation-name: Lema;
-        animation-delay: 26s;
-        animation-duration: 27s;
+    animation-delay: 26s;
+    animation-duration: 27s;
 }
 
 #INICIO h3 {
@@ -235,7 +239,7 @@ nav p {
     margin-left: 20px;
     color: #DDFFD9;
     font-family: SPACEGROTESK;
-    position:absolute;
+    position: absolute;
     top: -10px;
 }
 
@@ -259,7 +263,7 @@ nav p {
     margin-left: 20px;
     color: #DDFFD9;
     font-family: SPACEGROTESK;
-    position:absolute;
+    position: absolute;
     top: 30px;
 }
 
@@ -299,7 +303,7 @@ nav p {
     text-align: center;
     font-family: SPACEGROTESK;
     font-weight: 100;
-    color: #DDFFD9;    
+    color: #DDFFD9;
 }
 
 #FAQ .Boton2 {
@@ -325,10 +329,10 @@ nav p {
 }
 
 #NEWSLETTER h2 {
- margin-left: 20px;
+    margin-left: 20px;
     color: #DDFFD9;
     font-family: SPACEGROTESK;
-    position:absolute;
+    position: absolute;
     top: 150px;
 }
 
@@ -355,7 +359,7 @@ nav p {
     transform: translateX(-50%);
 }
 
-#NEWSLETTER .Boton2 a{
+#NEWSLETTER .Boton2 a {
     margin-top: 2px;
 }
 
@@ -374,18 +378,17 @@ nav p {
     transition: 0.3s ease-in-out;
 }
 
-#FOOTER img:hover{
+#FOOTER img:hover {
     transform: scale(1.2);
 }
 
-#FOOTER .icon img{
+#FOOTER .icon img {
     position: absolute;
     left: 20px;
     top: 70px;
-
 }
 
-#FOOTER .flecha img{
+#FOOTER .flecha img {
     position: absolute;
     right: -5px;
     left: auto;
@@ -412,10 +415,12 @@ nav p {
     transition: 0.3s ease-in-out;
 }
 
-#FOOTERTEXT p, a{
+#FOOTERTEXT p,
+a {
     margin-top: -10px;
     transition: 0.3s ease-in-out;
 }
+
 #FOOTERTEXT a:hover {
     color: #77CBB9;
     text-decoration: underline;
@@ -456,9 +461,8 @@ nav p {
     top: 180px;
     left: -10px;
     text-align: center;
-    }
+}
 
 #COPYRIGHT .ENG {
     margin-left: 17%;
 }
-
