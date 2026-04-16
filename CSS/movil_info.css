@@ -140,7 +140,7 @@ nav p {
 
 #SOBRE .CARD1 {
     margin-top: 125px;
-    width: 325px;
+    max-width: 325px;
 }
 
 #NIVELES {
@@ -216,18 +216,18 @@ nav p {
 
 #HOMBRE {
     width: 100vw;
-    height: 90vh;
     align-items: center;
     position: relative;
     top: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 #HOMBRE h2 {
     margin-left: 40px;
     color: #DDFFD9;
     font-family: SPACEGROTESK;
-    position: absolute;
-    top: -20px;
+    width: 90vw;
 }
 
 #HOMBRE h4 {
@@ -235,19 +235,17 @@ nav p {
     font-family: SPACEGROTESK;
     font-weight: lighter;
     letter-spacing: 4%;
-    width: 100%;
+    width: 80vw;
     text-align: left;
     text-transform: uppercase;
     margin-left: 60px;
-    margin-top: -50px;
 }
 
 #HOMBRE .Boton2 {
     position: relative;
     width: 250px;
     height: 20px;
-    top: 200px;
-    right: 250px;
+    margin-bottom: 100px;
 }
 
 .CARRUSEL_CARDS {

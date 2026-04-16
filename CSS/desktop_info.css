@@ -35,7 +35,8 @@
     }
 
     #SOBRE .CARD1 {
-        width: 75%;
+        width: 80%;
+        max-width: 925px;
     }
 
     #SOBRE h2 {
@@ -126,7 +127,7 @@
 
     #HOMBRE h2 {
         font-size: 3.5rem;
-        margin-left: -460px;
+        margin-left: -20px;
         color: #DDFFD9;
         font-family: SPACEGROTESK;
         position: absolute;
