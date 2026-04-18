@@ -158,10 +158,34 @@ nav p {
     width: max-content;
 }
 
-.CARRUSEL img {
-    scale: 50%;
-    margin-top: -100px;
-}
+.CARRUSEL_CARDS > div {
+    width: 375px; 
+    height: 300px; 
+    flex-shrink: 0;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+
+#F_1 {
+        background-image: url(../IMG/FLOOR1.png);
+    }
+
+    #F_2 {
+        background-image: url(../IMG/FLOOR2.png);
+    }
+
+    #F_3 {
+        background-image: url(../IMG/FLOOR3.png);
+    }
+
+    #F_4 {
+        background-image: url(../IMG/FLOOR4.png);
+    }
+
+    #F_5 {
+        background-image: url(../IMG/FLOOR5.png);
+    }
 
 #HOMBRE {
     width: 100vw;
