@@ -234,11 +234,11 @@
 
     #FAQ .PICAS img {
         position: relative;
-        left: 130%;
+        left: 133%;
         top: 5px;
         scale: 260%;
         width: 600px;
-        opacity: 0.3;
+        opacity: 0.5;
     }
 
     #FAQ h2 {
@@ -370,7 +370,7 @@
 
     #bgmenu {
         position: absolute;
-        left: 910px;
+        left: 1010px;
         width: 250px;
     }
 

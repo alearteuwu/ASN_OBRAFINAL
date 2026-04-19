@@ -286,7 +286,7 @@ nav p {
 #FAQ .PICAS img {
     position: relative;
     top: 150px;
-    left: 70%;
+    left: 80%;
     transform: translateX(-50%);
     scale: 150%;
     opacity: 50%;
@@ -304,6 +304,7 @@ nav p {
     font-family: SPACEGROTESK;
     font-weight: 100;
     color: #DDFFD9;
+    justify-content: center;
 }
 
 #FAQ .Boton2 {
@@ -314,6 +315,7 @@ nav p {
     top: 370px;
     left: 50%;
     transform: translateX(-50%);
+    justify-content: center;
 }
 
 #FAQ .Boton2 a {
@@ -410,7 +412,7 @@ nav p {
 #FOOTERTEXT {
     position: absolute;
     left: 48%;
-    top: 65px;
+    top: 95px;
     transform: translateX(-50%);
     width: 60%;
     display: flex;
@@ -469,5 +471,5 @@ a {
 }
 
 #COPYRIGHT .ENG {
-    margin-left: 17%;
+    margin-left: 10%;
 }
