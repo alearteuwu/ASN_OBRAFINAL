@@ -174,7 +174,7 @@ nav p {
 
 #INICIO picture {
     position: relative;
-    top: 0;
+    top: 10px;
     left: 0;
     width: 100%;
     display: flex;
@@ -188,7 +188,7 @@ nav p {
 }
 
 #INICIO h2 {
-    width: 90%;
+    width: 50%;
     text-align: center;
 
     font-family: SPACEGROTESK;
@@ -196,7 +196,7 @@ nav p {
     color: #DDFFD9;
 
     position: absolute;
-    left: 5%;
+    left: 25%;
     top: 400px;
 }
 
@@ -206,7 +206,7 @@ nav p {
     position: relative;
     left: 50% !important;
     transform: translateX(-80%);
-    margin-top: -180px;
+    margin-top: -140px;
     scale: 0.8;
     transition: all 0.3s ease-out;
 }
@@ -226,7 +226,7 @@ nav p {
 
     position: absolute;
     left: 22%;
-    top: 550px;
+    top: 570px;
     transform: translateX(-50%);
 
 }
@@ -240,14 +240,14 @@ nav p {
 
 #INICIO .Boton1 {
     position: absolute;
-    top: 640px;
+    top: 630px;
     left: 0%;
 }
 
 #INICIO .Boton2 {
     width: 25%;
     position: absolute;
-    top: 640px;
+    top: 630px;
     left: 60%;
 }
 
