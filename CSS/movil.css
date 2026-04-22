@@ -139,9 +139,9 @@ nav p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 2;
-    width: 90%;
-    gap: 20px;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-top: 50px;
 }
 
 #INICIO video {
@@ -161,14 +161,25 @@ nav p {
     z-index: 2;
 }
 
+#HERO {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    animation: BetPunkUI_Loop 53s infinite;
+}
+
 #INICIO picture {
+    position: relative;
+    top: 0;
+    left: 0;
     width: 100%;
-    position: absolute;
-    top: 70px;
-    left: -5px;
-    animation-name: Logo;
-    animation-delay: 26s;
-    animation-duration: 27s;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 #INICIO picture img {
@@ -187,10 +198,23 @@ nav p {
     position: absolute;
     left: 5%;
     top: 445px;
+}
 
-    animation-name: Lema;
-    animation-delay: 26s;
-    animation-duration: 27s;
+#HERO .Boton1 {
+    width: 150px;
+    height: 20px;
+    position: relative;
+    left: 50% !important;
+    transform: translateX(-80%);
+    margin-top: -150px;
+    scale: 0.8;
+    transition: all 0.3s ease-out;
+}
+
+#HERO .Boton1 p {
+    margin: 0; 
+    text-align: center;
+    width: 100%;
 }
 
 #INICIO h3 {

@@ -16,38 +16,33 @@
     }
 }
 
-
-@keyframes Logo {
+@keyframes BetPunkUI_Loop {
     0% {
         transform: scale(100%);
-        opacity: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    45% {
+        transform: scale(100%);
+        opacity: 1;
     }
 
-    10% {
+    50% {
         transform: scale(0%);
-        opacity: 0%;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    98% {
+        transform: scale(0%);
+        opacity: 0;
+        visibility: hidden;
     }
 
     100% {
-        transform: scale(0%);
-        opacity: 0%;
-    }
-}
-
-
-@keyframes Lema {
-    0% {
         transform: scale(100%);
-        opacity: 100%;
-    }
-
-    10% {
-        transform: scale(0%);
-        opacity: 0%;
-    }
-
-    100% {
-        transform: scale(0%);
-        opacity: 0%;
+        opacity: 1;
+        visibility: visible;
     }
 }
